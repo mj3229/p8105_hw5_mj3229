@@ -1,0 +1,12 @@
+---
+title: "Homework 5"
+subtitle: "Mahitha Jangeti"
+output: github_document
+---
+
+```{r setup}
+library(tidyverse)
+library(rvest)
+set.seed(1)
+```
+
