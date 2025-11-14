@@ -197,6 +197,8 @@ baltimore_prop =
 baltimore_tidy_result = broom::tidy(baltimore_prop) %>%
   select(estimate, conf.low, conf.high) %>%
   knitr::kable()
+
+knitr::kable(baltimore_tidy_result)
 ```
 
 **Extract both the proportion of unsolved homicides and the confidence interval for each**
